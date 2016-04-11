@@ -1,0 +1,5 @@
+MD=D;JMP
+D=A-1
+
+A=M-D;JNE
+
