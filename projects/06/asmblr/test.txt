@@ -1,5 +1,11 @@
 MD=D;JMP
-D=A-1
+@LOOP
+@R0
+@hi
 
-A=M-D;JNE
+MD=A; JGE 
+D=A-1 
+ ( LOOP )
+ A=M-D;JNE
+ @LOOP
 
